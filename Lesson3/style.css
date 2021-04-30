@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+  }
+  .heading{
+    text-align: center;
+  }
+  .text{
+    color: blue;
+    font-family: serif;
+  }
+  .list{
+    list-style-type: none;
+  }
+  .block{
+    width: 90%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #ccc;
+    background-image: url();  
+    background-size: cover;
+    background-position: center;
+  }
