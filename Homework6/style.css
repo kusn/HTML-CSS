@@ -1,0 +1,190 @@
+* {margin: 0;
+  padding: 0;
+}
+body{
+    font-family: sans-serif;
+  }
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .top{    
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);    
+  }  
+  .header{    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+  }
+  .top__box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .top__info{
+    padding-top: 115px;    
+    flex-grow: 1;
+    background-image: url(img/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .top__heading{    
+    width: 504px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+  }
+  .top__text{
+    width: 425px;
+  }
+  .top__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+
+color: #FFFFFF;
+  }
+  .what-we-do{    
+    margin-top: 20px;
+    padding-top: 64px;
+  }
+  .heading{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+  }
+  .description>p{
+    width: 425px;
+  }
+  
+  .card-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .card{
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card__img{
+    align-self: center;
+    margin-bottom: 51px;
+  }
+  .card__link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+  }
+  .finishproject{
+    border: 1px solid red;
+    margin-top: 10px;
+  }
+  .parproject{
+    text-align: center;
+  }
+  .footer{
+    border: 1px solid red;
+    margin-top: 30px;
+    background: purple;
+  }
+  .talk{
+    border: 1px solid white;  
+    margin-top: 2px;
+  }
+  .interes{
+    border: 1px solid pink;
+    width: 495px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .interes>h3{
+    width: 340px;
+  }
+  .list{
+    margin-left: 10px;
+    margin-right: 30px;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .rights{
+    border: 1px solid white;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contactus{
+    border: 1px solid white;
+    text-align: center;
+  }
+  .contactsblock{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .par{    
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+  }  
+  
+  .h2_contacts
+  {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+  }
+  .h3_class{
+    font-size: 36px;
+    text-align: center;
+  }
+  .heading-mini{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+  }  
+  .button{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;}
