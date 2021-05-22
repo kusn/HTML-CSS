@@ -1,0 +1,326 @@
+* {margin: 0;
+  padding: 0;
+}
+body{
+    font-family: sans-serif;
+  }
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .top{    
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);    
+  }  
+  .header{    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+  }
+  .top__box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .top__info{
+    padding-top: 115px;    
+    flex-grow: 1;
+    background-image: url(img/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50%;
+  }
+  .top__heading{    
+    width: 504px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+  }
+  .top__text{
+    width: 425px;
+  }
+  .top__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+    color: #FFFFFF;
+  }
+  .what-we-do{    
+    margin-top: 20px;
+    padding-top: 64px;
+  }
+  .heading{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+  }
+  .description>p{
+    width: 425px;
+  }
+  
+  .card-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .card{
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card__img{
+    align-self: center;
+    margin-bottom: 51px;
+  }
+  .card__link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+  }
+  .project{    
+    
+  }
+  .project__parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    
+  }
+  .text__project{
+    width: 75%;
+    margin:  32px auto 64px;
+    text-align: center;
+    color: #222222;
+    opacity: 1;
+  }
+  .project__item{
+    position: relative;
+    flex-grow: 1;
+  }
+  .project__item_margin{
+    margin-right: 32px;
+  } 
+  .project__img{
+    width: 100%;    
+  }
+  .project__text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    color: #FFFFFF;
+  }
+  .project__text_mini{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
+  .footer{    
+    margin-top: 112px;
+    background: #316099;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;   
+  }
+  .footer_parent{    
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    
+    padding: 91px 113px;
+  }  
+  .footer_item{
+    max-width: 500px;
+    align-self: center;
+  }
+  .footer_heading{
+    width: 340px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 32px;    
+  }
+  .footer__text{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6; 
+  }
+
+  .footer__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);    
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;    
+    color: #FFFFFF;
+  }
+  .interes{    
+    width: 495px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }  
+  .list{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 64px;
+    
+  }
+  .footer_rights{
+    padding: 0px 113px 64px;
+  }
+  .contactus{
+    text-align: center;
+  }
+  .contactsblock{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .h2_contacts
+  {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+  }  
+  .heading-mini{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+  }  
+  .button{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  @media (max-width: 1024px) {
+    .container {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .top__info{
+      background-position: right 280px;
+    }
+    .card-box{
+      flex-direction: column;
+      align-items: center;
+    }
+    .card{
+      margin-bottom: 32px;
+    }
+  }
+  @media(max-width: 667px){
+    .header{
+      padding-top: 24px;
+    }
+    .top{
+      min-height: 376px;
+      padding-bottom: 41px;
+      box-sizing: border-box;
+    }
+    .top__info{
+      padding-top: 36px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: none;
+    }
+    .top__heading{
+      width: 100%;
+      font-size: 32px;
+      line-height: 37px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .top__text{
+      width: 100%;
+      text-align: center;
+    }
+    .top__button{
+      font-size: 12px;
+      line-height: 26px;
+      padding: 0 8px;
+    }
+    .heading{
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .what-we-do{
+      padding-top: 48px;
+    }
+    .card-box{
+      padding-top: 32px;
+    }
+    .card{
+      width: 100%;
+    }
+    .project__text{
+      width: 100%;    
+      font-size: 16px;
+      line-height: 19px;
+      top: 16px;
+      right: 16px;
+    }
+    .project__text_mini{
+      font-size: 16px;
+      line-height: 19px;
+      left: 16px;
+    }
+    .project__parent{
+      flex-direction: column;
+      margin-top: 16px;
+    }
+    .project__item_margin{
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
